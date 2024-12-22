@@ -181,7 +181,7 @@ services:
 
   postgres_one:
     container_name: postgres_one
-    image: postgres:16.1
+    image: postgres:16
     environment:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
@@ -201,7 +201,7 @@ services:
 
   postgres_two:
     container_name: postgres_two
-    image: postgres:16.1
+    image: postgres:16
     environment:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
