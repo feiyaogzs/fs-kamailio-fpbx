@@ -59,7 +59,7 @@ services:
 
   postgres_kamailio:
     container_name: postgres_kamailio
-    image: postgres:16.1
+    image: postgres:16
     environment:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
